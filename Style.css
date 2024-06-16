@@ -1,0 +1,75 @@
+body {
+    background-color:#f5f9f9; 
+}
+
+h1{
+    color: rgb(15, 4, 60);
+    text-align: center;
+
+}
+.paragraph1{
+    color: rgb(11, 3, 38);
+    text-align: center;
+}
+.paragraph2{
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(5, 5, 70);
+    padding: 30px;
+}
+
+.para{
+    background-color: rgb(10, 10, 87);
+    color: cornsilk;
+    padding:40px;
+    text-align: center;
+    margin: 50px;
+    border-radius: 30px;
+}
+.LoginButton{
+    color: white;
+    background-color: rgb(205, 53, 10);
+    padding: 10px;
+    font-size: large;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.LoginButton:hover{
+    background-color: rgb(66, 16, 4);
+}
+.LoginButton:active{
+    background-color: brown;
+    border: 1px solid rgb(194, 115, 5);
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2hpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Box1{
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.Box2{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(244, 17, 93);
+}
+.NAVIGATIONS{
+    position: sticky;
+    top: 0px;
+    background-color: rgb(237, 228, 228);
+    text-align: center;
+    color: rgb(254, 254, 255);
+}
